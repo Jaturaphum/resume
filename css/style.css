@@ -540,3 +540,13 @@ h3 {
   display: block;
   color: aliceblue;
 }
+
+@media only screen and (max-width: 425px) {
+  html {
+    width: max-content;
+    height: max-content;
+  }
+  .resume {
+    margin: 20% auto;
+  }
+}
